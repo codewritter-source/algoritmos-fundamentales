@@ -2,7 +2,7 @@
 
 
 # Curso: SICI 4036 - Data Structures
-# Laboratorio: 2 - Bubble Sort
+# Laboratorio 1: Algoritmos de busqueda Secuencial y Binaria
 # Estudiante: Guillermo Pacheco Cruz
 # Descripcion: El programa compara algoritmos de busqueda secuencial y binaria.
 # Modificaciones:
@@ -78,8 +78,8 @@ if __name__ == "__main__":
     main()
 
 """
- CONTESTACIONES A PREGUNTAS DE ANALISIS
- 
+Analisis:
+
 En una busqueda lineal, en el peor de los casos, el elemento buscado no se 
 encuentra en la lista, y el algoritmo tiene que correr la lista completa para saberlo.
 
