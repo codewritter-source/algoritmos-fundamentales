@@ -2,9 +2,6 @@
 
 
 """
-Curso: SICI 4036 - Data Structures
-Laboratorio 2: Algoritmo de Ordenamiento "Bubble Sort"
-Estudiante: Guillermo Pacheco Cruz
 Descripcion: El programa utiliza un algoritmo de Bubble Sort para
                 organizar latencias en una red.
 Modificaciones:Modifique main() para ejecutar dos pruebas adicionales:
@@ -14,7 +11,6 @@ Modificaciones:Modifique main() para ejecutar dos pruebas adicionales:
                 la segunda, 10 comparaciones y 10 intercambios.
 """
 
-# Laboratorio 2: Bubble Sort con parada temprana.
 
 def bubble_sort(valores):
     # Ordena una copia; devuelve (lista, comparaciones, cambios).

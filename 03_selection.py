@@ -2,9 +2,6 @@
 
 
 """
-Curso: SICI 4036 - Data Structures
-Laboratorio 3: Algoritmo de Ordenamiento "Selection Sort"
-Estudiante: Guillermo Pacheco Cruz
 Descripcion: El programa utiliza un algoritmo de Bubble Sort para organizar solicitudes
     segun la escala de prioridad; donde el valor 1 tiene la prioridad mas alta.
 Modificaciones: Agregue a main() una tercera prueba con [5, 4, 3, 2, 1] y una cuarta con [2, 2, 1, 1, 3].

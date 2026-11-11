@@ -1,20 +1,17 @@
 
 
 
-# Curso: SICI 4036 - Data Structures
-# Laboratorio 1: Algoritmos de busqueda Secuencial y Binaria
-# Estudiante: Guillermo Pacheco Cruz
-# Descripcion: El programa compara algoritmos de busqueda secuencial y binaria.
-# Modificaciones:
-# a)Cambie los objetivos de búsqueda a (105, 225, 200). Determine el índice obtenido por cada algoritmo y compare
-# cuántas inspecciones hizo cada uno.
-# b)Reemplace los nueve códigos por list(range(0, 2048, 2)) y pruebe los objetivos (2046, 2047). Antes de ejecutar,
-# prediga cuál método necesita menos comparaciones.
-# c)Añada un comentario junto a la definición de codigos indicando expresamente la precondición de la búsqueda
-# binaria.
-
-"""Laboratorio 1: busqueda secuencial y binaria.
 """
+Descripcion: El programa compara algoritmos de busqueda secuencial y binaria.
+Modificaciones:
+a)Cambie los objetivos de búsqueda a (105, 225, 200). Determine el índice obtenido por cada algoritmo y compare
+cuántas inspecciones hizo cada uno.
+b)Reemplace los nueve códigos por list(range(0, 2048, 2)) y pruebe los objetivos (2046, 2047). Antes de ejecutar,
+prediga cuál método necesita menos comparaciones.
+c)Añada un comentario junto a la definición de codigos indicando expresamente la precondición de la búsqueda
+binaria.
+"""
+
 
 def busqueda_lineal(datos, objetivo):
     """Devuelve (indice, comparaciones); -1 si no existe.
